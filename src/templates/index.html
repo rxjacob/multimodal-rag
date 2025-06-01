@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokemon Character Finder</title>
+</head>
+<body>
+  <p></p>
+  <p></p>
+<div style="text-align: center;">
+  <form action="/ask" method="post">
+    <label for="inputText">Enter the description of the Pokémon</label><br>
+    <input type="text" id="question" name="question" placeholder="Type here..."><br><br>
+    <button type="submit">Enter</button>
+  </form>
+</div>
+  <p></p>
+  <p></p>
+<div style="text-align: center;">
+  <form action="/ask2" method=post enctype=multipart/form-data>
+      <label for="inputText">Upload an image of the Pokémon</label><br>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+  </form>
+</div>
+  <p></p>
+  <p></p>
+<div style="text-align: center;">
+  <form action="/ask3" method=post enctype=multipart/form-data>
+      <label for="inputText">Upload a video of the Pokémon</label><br>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+  </form>
+</div>
+</body>
+</html>
