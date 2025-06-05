@@ -1,5 +1,13 @@
 import unittest
+import chromadb
 from rag import main
+from deepeval import assert_test
+from deepeval import evaluate
+from deepeval import LLMTestCase, LLMTestCaseParams
+from deepeval.metrics import AnswerRelevancyMetric
+
+
+
 
 
 class TestRag(unittest.TestCase):
